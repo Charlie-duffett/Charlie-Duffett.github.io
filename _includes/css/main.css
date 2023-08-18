@@ -16,6 +16,20 @@ p.small {
     font-size: 16px;
 }
 
+.align-left {
+  text-align: left;
+}
+
+ul {
+  padding-bottom: 10px;
+}
+
+ul, li {
+  margin: auto;
+  list-style-type: disc;
+  font-size: 20px;
+}
+
 a,
 a:hover,
 a:focus,
