@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 3
+date: 2016-07-18
+img: TheCube.PNG
+alt: Screenshot of Character holding cube
+overview: The Cube was a project challenge set by CG Spectrum. In this we was tasked to make a ball go through a hoop. As this is an easy task I decided to make it a challenge to get to the point where the ball would go through the hoop. So I made a randomly generated 3d Maze that you could rotate with the goal of it being to make the ball go into a portal. 
+detailed-description: The project itself was alot harder than I had expected as I had never spawned any objects through C++ before so the whole undertaking was a massive learning experience. Once I had thought myself how to spawn cubes in as components on a large maze Pawn (its a pawn as it is controlled/moved by the player) I started to work on the algorithm to generate the maze. The algorithm works by basically "eating" cubes away until it hits another part of the maze. This uses a loop erased walk/Wilsons algorithm. <br/><br/> If I was to start this project again I would focus alot more on the maze movement and ball control as I feel this is a heavily weak part of this whole game. I was unable to improve this at the time due to the amount of time i speant making the maze algorithm work. This leaves the ball quite difficult to control when moving the maze.
+demo: https://www.youtube.com/embed/ArpWWojEpY0
+---
