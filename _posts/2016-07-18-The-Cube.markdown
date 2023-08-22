@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2016-07-18
-img: TheCube.PNG
+img: TheCube.png
 alt: Screenshot of Character holding cube
 overview: The Cube was a team project challenge set by CG Spectrum. I was partnered with David who had only just recently started his base course with CG Spectrum so after discussion we decided to create a 3d maze which I code while he got familiar with Unreal. With some of my help I tasked him with creating a menu screen, the screen and some UI elements.
 bullets: Learnt how to spawn components on an actor through C++, Spawned in a group of cubes around a maze base, Programmed a maze generation algorithm using loop erased walk (wilsons algorithm), Configured a ball object to be able to move through the maze based on rotation, Created player controls to allow the player to rotate the maze to move the ball, Created end portal which when activated changed the level to the end game level, Worked with my teammate David in helping him better understand the Unreal Engine
