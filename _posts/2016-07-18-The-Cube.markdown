@@ -7,4 +7,5 @@ alt: Screenshot of Character holding cube
 overview: The Cube was a team project challenge set by CG Spectrum. I was partnered with a game designer and we spent the next to weeks designing a creating the game. This was a first Unreal engine project and was also the first time I was implementing a algorithm to spawn in actors into the world.
 bullets: Created a structure spawner to be used with a maze generation algorithm, Programmed a maze generation algorithm using loop erased walk (wilsons algorithm), Configured a ball object to be able to move through the maze based on rotation, Created player controls to move the ball by tilting the maze, Created end portal which when activated changed the level to the end game screen, Taught designer parts of the unreal engine and gave simple tasks to showcase learning opportunities
 demo: https://www.youtube.com/embed/ArpWWojEpY0
+code: The code for this project can be found on my <a href="https://github.com/Charlie-duffett/BallInHoop">Github</a>
 ---

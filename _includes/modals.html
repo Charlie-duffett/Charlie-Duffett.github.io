@@ -38,6 +38,11 @@
             </ul>
             {% endif %}
 
+            {% if post.code %}
+            <h3>Code:</h3>
+            <p>{{ post.code }}</p>
+            {% endif %}
+
             <ul class="">
               {% if post.client %}
               <li>Client:

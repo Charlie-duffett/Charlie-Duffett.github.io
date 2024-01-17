@@ -205,6 +205,14 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+a {
+  color: #71deff;
+}
+
+a:hover {
+  color: #71deff
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
