@@ -38,7 +38,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #71deff;
+
 }
 
 h1,
@@ -203,14 +204,6 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
-}
-
-a {
-  color: #71deff;
-}
-
-a:hover {
-  color: #71deff
 }
 
 @media(max-width:767px) {
