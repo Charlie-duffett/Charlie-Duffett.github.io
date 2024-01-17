@@ -32,7 +32,7 @@
             <ul class="align-left">
               {% for point in bulletPoints %}
                 <li>
-                  {{point}}
+                  {{point | replace: "_", "," }}
                 </li>
               {% endfor %}
             </ul>

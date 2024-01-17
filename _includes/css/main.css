@@ -281,6 +281,8 @@ section.success {
       justify-content: space-around;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+      display: flex;
+      align-items: center;
       flex: 1 0 49%;
       max-width: 49%;
     }
