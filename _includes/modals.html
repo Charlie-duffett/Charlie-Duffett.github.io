@@ -26,13 +26,26 @@
               src="{{post.demo}}"
               frameborder="0"></iframe>
             {% endif %}
+
+            {% if post.lessons-learned %}
+            {% assign lessons = post.lessons-learned | split: "," %}
+            <h3>Lessons Learnt</h3>
+            <ul class="align-left">
+              {% for point in lessons %}
+                <li>
+                  {{point | replace: "_", "," | replace: "|", ":"}}
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
             {% if post.bullets %}
             {% assign bulletPoints = post.bullets | split: "," %}
-            <h3>Description</h3>
+            <h3>What I Did</h3>
             <ul class="align-left">
               {% for point in bulletPoints %}
                 <li>
-                  {{point | replace: "_", "," }}
+                  {{point | replace: "_", ","}}
                 </li>
               {% endfor %}
             </ul>
