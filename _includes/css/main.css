@@ -25,6 +25,9 @@ p.small {
 ul {
   padding-bottom: 10px;
 }
+li {
+  padding-bottom: 10px;
+}
 
 ul, li {
   margin: auto;
